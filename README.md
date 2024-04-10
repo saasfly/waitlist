@@ -1,6 +1,13 @@
-# Your Next-Gen AI Waitlist
+# Empower Your AI Startup with a Next-Gen Waitlist
 
-Kickstart your AI startup journey with a waitlist instead of a SaaS template. Of course, once you've completed your waitlist, check out our AI-powered Next.js SaaS template [Saasfly](https://github.com/saasfly/saasfly).
+Kickstart your AI startup journey with a waitlist instead of a SaaS template. Once you've completed your waitlist, check out our AI-powered Next.js SaaS template [Saasfly](https://github.com/saasfly/saasfly).
+
+## Why Choose Saasfly Waitlist?
+
+1. **High-Performance Static Pages**: Leveraging Next.js's static site generation (SSG) capabilities, deliver blazing-fast static pages while enjoying Next.js's unparalleled development experience.
+2. **Zero Hosting Costs**: Deploy static pages on Cloudflare completely free of charge, eliminating hosting costs and concerns.
+3. **Dynamic Data Collection**: Harness the power of Google Forms to collect form data, empowering static pages with dynamic capabilities for seamless data collection and user interaction.
+4. **Data Ownership and Privacy**: Maintain full control and ownership of your data without relying on third-party SaaS providers, ensuring data privacy and autonomy.
 
 > **Nextify** offers complete enterprise-grade SaaS solutions. If you're interested in discussing your project or just want to connect with us, feel free to reach out at contact@nextify.ltd.
 
@@ -10,14 +17,18 @@ Kickstart your AI startup journey with a waitlist instead of a SaaS template. Of
 
 ## Introduction
 
-We aim to build a static waitlist page leveraging Next.js's SSG capabilities and use Google Form to receive form email information.
+Our goal is to leverage Next.js's static site generation (SSG) capabilities to build a high-performance waiting list page, and use Google Forms as the backend to receive user-submitted email information. With this approach, we can quickly and cost-effectively create a waiting list page without having to write any backend code for data collection.
 
 ## ⚡ Live Demo
 
 Try it out for yourself!
 
 Demo URL: https://waitlist.saasfly.io
-(⚠️：We forcefully require Google Forms to log in before submission for security reasons. You can turn it off in the test environment.)
+
+## ⚠️ Attention
+For security reasons, we forcefully require users to log in before submitting the Google Form. You can turn off this requirement in the test environment or if your use case doesn't need this level of security.
+
+![Google Form Login](img.png)
 
 ## 🚀 Quick Start
 
@@ -29,83 +40,60 @@ Before getting started, make sure you have the following installed:
 
 - Linux
 
-```
-
+```bash
 curl -sL https://gist.github.com/tianzx/874662fb204d32390bc2f2e9e4d2df0a/raw -o ~/downloaded_script.sh && chmod +x ~/downloaded_script.sh && source ~/downloaded_script.sh
-
 ```
 
 - MacOS
 
-```
-
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 brew install git
-
 brew install oven-sh/bun/bun
-
 brew install nvm
-
 ```
 
 ### Installation
 
 To start using this template, follow these steps:
 
-Clone the repository manually:
+1. Clone the repository:
 
-```
-
+```bash
 git clone https://github.com/saasfly/waitlist.git
-
 cd waitlist
-
 bun install
-
 ```
 
-Set up your project by following these steps:
+2. Set up environment variables:
 
-1. Set up environment variables:
-
-```
-
+```bash
 cp .env.example .env.local
-
 ```
-see our document to know how to get your own variables
-https://document.saasfly.io/usage/waitlist/google-forms/
+See our [documentation](https://document.saasfly.io/usage/waitlist/google-forms/) to learn how to get your own variables.
 
-2. Run the development server:
+3. Run the development server:
 
-```
-
+```bash
 bun run dev
-
 ```
 
-3. Open http://localhost:3000 in your browser to see the result.
+4. Open http://localhost:3000 in your browser to see the result.
 
 ## ⭐ Features
 
-### 🐭 Framework
+- **🐭 Framework**: Next.js - The React Framework for the Web (using App Directory)
+- **🐮 Platform**: Cloudflare
+- **🐯 Backend**: Google Forms API
 
-- **Next.js** - The React Framework for the Web (using **App Directory**)
+## 🚀 Deployment
+To deploy your waitlist page, create a Cloudflare Pages application:
 
-### 🐮 Platform
+1. Add your own variables
+![Cloudflare Pages Setup](deploy1.png)
 
-- **Cloudflare**
-
-### 🐯 Backend
-
-- **Google Forms API** - Form backend
-
-### Deploy
-You need to create a Cloudflare pages application.
-1、![deploy1.png](deploy1.png)
-2、![deploy2.png](deploy2.png)
+2. Deploy config
+![Cloudflare Pages Deployment](deploy2.png)
 
 ## 📜 License
-
-This project is licensed under the MIT License. For more information, see the LICENSE file.
+This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
