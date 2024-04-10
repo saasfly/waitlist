@@ -1,4 +1,4 @@
-# Empower Your AI Startup with a Next-Gen Waitlist
+# Empower Your AI Startup with a  Waitlist
 
 Kickstart your AI startup journey with a waitlist instead of a SaaS template. Once you've completed your waitlist, check out our AI-powered Next.js SaaS template [Saasfly](https://github.com/saasfly/saasfly).
 
@@ -90,9 +90,11 @@ bun run dev
 To deploy your waitlist page, create a Cloudflare Pages application:
 
 1. Add your own variables
+
 ![Cloudflare Pages Setup](deploy1.png)
 
 2. Deploy config
+
 ![Cloudflare Pages Deployment](deploy2.png)
 
 ## 📜 License
