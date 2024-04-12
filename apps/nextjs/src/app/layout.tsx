@@ -10,9 +10,6 @@ import { TailwindIndicator } from "~/components/tailwind-indicator";
 import { ThemeProvider } from "~/components/theme-provider";
 import { siteConfig } from "~/config/site";
 
-// import { Suspense } from "react";
-// import { PostHogPageview } from "~/config/providers";
-
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -55,8 +52,8 @@ export const metadata = {
   },
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon-16x16.ico",
+    // apple: "/apple-touch-icon.png",
   },
   metadataBase: new URL("https://waitlist.saasfly.io/"),
   // manifest: `${siteConfig.url}/site.webmanifest`,
