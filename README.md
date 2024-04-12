@@ -8,6 +8,7 @@ Kickstart your AI startup journey with a waitlist instead of a SaaS template. On
 2. **Zero Hosting Costs**: Deploy static pages on Cloudflare completely free of charge, eliminating hosting costs and concerns.
 3. **Dynamic Data Collection**: Harness the power of Google Forms to collect form data, empowering static pages with dynamic capabilities for seamless data collection and user interaction.
 4. **Data Ownership and Privacy**: Maintain full control and ownership of your data without relying on third-party SaaS providers, ensuring data privacy and autonomy.
+5. **Powerful Data Analysis**: Utilize a simple yet effective local-first analysis [service](https://excel.saasfly.io/) to gain valuable insights from your collected data. This lightweight tool empowers you to make data-driven decisions without the need for complex and costly BI systems, while keeping your data secure and under your control.
 
 > **Nextify** offers complete enterprise-grade SaaS solutions. If you're interested in discussing your project or just want to connect with us, feel free to reach out at contact@nextify.ltd.
 
@@ -96,6 +97,10 @@ To deploy your waitlist page, create a Cloudflare Pages application:
 2. Deploy config
 
 ![Cloudflare Pages Deployment](deploy2.png)
+
+## 🤔 Analysis
+You don't need a very complex BI system. I build a simple local-first excel analysis [service](https://excel.saasfly.io) to help you.
+![analysis.jpg](analysis.jpg)
 
 ## 📜 License
 This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
