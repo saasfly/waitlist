@@ -1,4 +1,5 @@
 # Empower Your AI Startup with a  Waitlist
+[![Chinese](https://img.shields.io/badge/-Chinese-red.svg)](README_zh.md)
 
 Kickstart your AI startup journey with a waitlist instead of a SaaS template. Once you've completed your waitlist, check out our AI-powered Next.js SaaS template [Saasfly](https://github.com/saasfly/saasfly).
 
