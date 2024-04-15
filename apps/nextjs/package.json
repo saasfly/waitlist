@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "bun next build",
+    "build-local": "bun with-env next build",
     "clean": "git clean -xdf .next .turbo node_modules",
     "dev": "bun with-env next dev",
     "lint": " bun with-env next lint --quiet",
@@ -29,7 +30,8 @@
     "tailwindcss-animate": "1.0.7",
     "zod": "3.22.4",
     "zustand": "4.5.2",
-    "vaul": "0.9.0"
+    "vaul": "0.9.0",
+    "sharp": "0.33.3"
   },
   "devDependencies": {
     "vercel": "33.7.1",
