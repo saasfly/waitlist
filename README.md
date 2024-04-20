@@ -78,7 +78,7 @@ See our [documentation](https://document.saasfly.io/usage/waitlist/google-forms/
 
 ```bash
 bun run dev
-```
+```c
 
 4. Open http://localhost:3000 in your browser to see the result.
 
